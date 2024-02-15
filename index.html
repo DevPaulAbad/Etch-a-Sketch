@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <header>
+        <p>Etch a Sketch</p>
+    </header>
+
+    <div class="layout">
+        <div class="sidebar">
+            <div class="button-group">
+                <label for="gridNumber">Grid Count</label>
+                <input type="number" name="gridNumber" id="gridCount" value="16" max="100">
+                <button onclick="createGrid()" id="createGrid">Create Grid</button>
+                <button onclick="resetGrid()"id ="resetGrid">Reset Board</button>
+            </div>
+            
+        </div>
+        <div class="grid-container" id="gridContainer">
+            
+        </div>
+    </div>
+</body>
+</html>

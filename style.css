@@ -1,0 +1,56 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.grid-container{
+    /* background-color: rgb(252, 255, 52); */
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+#resetGrid{
+    border-radius: 15px;
+    padding: 12px;
+    border: 0;
+    background-color: red;
+}
+#createGrid{
+    border-radius: 15px;
+    padding: 12px;
+    border: 0;
+    background-color: green;
+}
+
+#gridCount{
+    border-radius: 15px;
+    padding: 10px;
+    border: 1 solid rgb(255, 255, 255);
+}
+
